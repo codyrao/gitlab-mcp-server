@@ -1,0 +1,99 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+gitlab-mcp-server
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+coverage.txt
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build output
+bin/
+dist/
+build/
+
+# Configuration files with sensitive data
+config.yaml
+config_*.yaml
+*.env
+.env
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS specific
+Thumbs.db
+Desktop.ini
+
+# Test files
+config_test.yaml
+test_*.yaml
+
+# Documentation drafts
+*.md.bak
+*.md.tmp
+
+# Node modules (if any frontend)
+node_modules/
+
+# Python cache (if any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Coverage reports
+coverage/
+.coverage
+coverage.xml
+
+# Benchmark results
+*.bench
+
+# Profiling data
+*.prof
+cpu.prof
+mem.prof
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Backup files
+*.bak
+*.backup
